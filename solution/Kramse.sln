@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Kramse", "Kramse\Kramse.dtproj", "{304D9332-A9E9-4C30-8200-D38051A6B860}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "KramseCalendar", "KramseCalendar\KramseCalendar.dwproj", "{BA469A7A-0671-4B95-B157-FAE19EA6BC66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceFiles", "SourceFiles", "{217D5030-3A44-410D-8C31-72FF969F9282}"
+	ProjectSection(SolutionItems) = preProject
+		SourceFiles\Consignor.xlsx = SourceFiles\Consignor.xlsx
+		SourceFiles\Container.txt = SourceFiles\Container.txt
+		SourceFiles\KramseTPS.accdb = SourceFiles\KramseTPS.accdb
+		SourceFiles\KramseTPS_be.accdb = SourceFiles\KramseTPS_be.accdb
+		SourceFiles\KramseTPSUpdate.accdb = SourceFiles\KramseTPSUpdate.accdb
+		SourceFiles\KramseTPSUpdate_be.accdb = SourceFiles\KramseTPSUpdate_be.accdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{304D9332-A9E9-4C30-8200-D38051A6B860}.Development|Default.ActiveCfg = Development
+		{304D9332-A9E9-4C30-8200-D38051A6B860}.Development|Default.Build.0 = Development
+		{BA469A7A-0671-4B95-B157-FAE19EA6BC66}.Development|Default.ActiveCfg = Development
+		{BA469A7A-0671-4B95-B157-FAE19EA6BC66}.Development|Default.Build.0 = Development
+		{BA469A7A-0671-4B95-B157-FAE19EA6BC66}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {117DFA1F-7802-4722-B7FF-3B1B2D7A42F8}
+	EndGlobalSection
+EndGlobal

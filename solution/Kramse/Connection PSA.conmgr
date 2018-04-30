@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Connection PSA"
+  DTS:DTSID="{F8A1AB98-437A-41EE-97B5-DDA8345DC20E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=.;Initial Catalog=KramsePSA;Provider=SQLOLEDB;Integrated Security=SSPI;Auto Translate=false;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
